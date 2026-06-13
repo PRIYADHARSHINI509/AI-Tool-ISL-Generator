@@ -1,0 +1,82 @@
+# Database Requirement Analysis
+
+## Project Title
+AI Tool / Mobile App for Indian Sign Language (ISL) Generator
+(English/Hindi ↔ ISL)
+
+## Purpose
+The database is used to store user information, translation requests, sign language datasets, translation history, and admin reports.
+
+## Required Tables
+
+### 1. User
+Stores user registration and login details.
+
+Attributes:
+- user_id
+- name
+- email
+- password
+- phone
+
+### 2. Translation
+Stores translation requests and results.
+
+Attributes:
+- translation_id
+- user_id
+- input_type
+- input_content
+- output_type
+- output_content
+- translation_date
+
+### 3. Dataset
+Stores ISL gesture dataset information.
+
+Attributes:
+- dataset_id
+- language
+- gesture_name
+- category
+- video_path
+- description
+
+### 4. History
+Stores previous translation records.
+
+Attributes:
+- history_id
+- translation_id
+- result_type
+- timestamp
+
+### 5. Admin
+Stores administrator details.
+
+Attributes:
+- admin_id
+- name
+- email
+- password
+
+### 6. Report
+Stores system usage and translation reports.
+
+Attributes:
+- report_id
+- admin_id
+- report_type
+- report_date
+- details
+
+## Relationships
+
+- One User can perform many Translations.
+- One Translation can have one History record.
+- Many Translations use Dataset records.
+- One Admin can generate many Reports.
+
+## Outcome
+
+The database will efficiently manage users, translations, datasets, history records, and reports for the ISL Generator application.
