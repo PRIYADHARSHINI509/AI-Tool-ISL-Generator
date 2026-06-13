@@ -9,23 +9,23 @@ REQUIREMENT GATHERING :
 
 Functional Requirements :
 
-User Registration and Login
-Audio Input Processing
-Video Input Processing
-English/Hindi to ISL Conversion
-ISL Gesture Recognition
-ISL to Text Conversion
-Text to Speech Output
-History Management
-Report Generation
+User Registration and Login,
+Audio Input Processing,
+Video Input Processing,
+English/Hindi to ISL Conversion,
+ISL Gesture Recognition,
+ISL to Text Conversion,
+Text to Speech Output,
+History Management,
+Report Generation.
 
 Non-Functional Requirements :
 
-Fast Response Time
-High Accuracy
-User-Friendly Interface
-Secure Data Storage
-Mobile Compatibility
+Fast Response Time,
+High Accuracy,
+User-Friendly Interface,
+Secure Data Storage,
+Mobile Compatibility.
 
 OBJECTIVES :
 
@@ -37,26 +37,26 @@ Provide a user-friendly mobile application.
 
 USER & MODULE IDENTIFICATION :
 USER :
-Primary User
-  Hearing-Impaired Person
-Secondary User
-  General User
-  Teacher
-  Administrator
+Primary User_
+  Hearing-Impaired Person.
+Secondary User_
+  General User,
+  Teacher,
+  Administrator.
 MODULE :
-User Management Module
-  Registration
-  Login
-Speech Processing Module
-  Audio Capture
-  Speech Recognition
-ISL Generation Module
+User Management Module_
+  Registration,
+  Login.
+Speech Processing Module_
+  Audio Capture,
+  Speech Recognition.
+ISL Generation Module_
   Text to ISL Conversion
-Gesture Recognition Module
-  Camera Input
-  Gesture Detection
-Translation Module
-  ISL to Text
-Report Module
-  Usage History
-  Reports
+Gesture Recognition Module_
+  Camera Input,
+  Gesture Detection.
+Translation Module_
+  ISL to Text.
+Report Module-
+  Usage History,
+  Reports.
