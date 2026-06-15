@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function Register() {
   return (
     <div style={{ textAlign: "center", marginTop: "100px" }}>
@@ -34,6 +35,11 @@ function Register() {
       <br /><br />
 
       <button>Register</button>
+      <br /><br />
+
+<Link to="/">
+  Already have an account? Login
+</Link>
     </div>
   );
 }
