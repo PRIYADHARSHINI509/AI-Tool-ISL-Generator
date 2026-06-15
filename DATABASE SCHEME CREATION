@@ -1,0 +1,42 @@
+# SQL Schema
+
+## User Table
+- user_id (PK)
+- name
+- email
+- password
+- phone
+
+## Translation Table
+- translation_id (PK)
+- user_id (FK)
+- input_type
+- input_content
+- output_type
+- output_content
+- translation_date
+
+## Dataset Table
+- dataset_id (PK)
+- language
+- gesture_name
+- category
+- video_path
+
+## History Table
+- history_id (PK)
+- translation_id (FK)
+- result_type
+- timestamp
+
+## Admin Table
+- admin_id (PK)
+- name
+- email
+- password
+
+## Report Table
+- report_id (PK)
+- admin_id (FK)
+- report_type
+- report_date

@@ -1,0 +1,39 @@
+# Design Review
+
+## Project Title
+AI Tool / Mobile App for Indian Sign Language (ISL) Generator from Audio-Visual Content in English/Hindi to ISL and Vice Versa
+
+## Review Summary
+
+The project design has been reviewed and validated based on the requirements gathered from users and stakeholders.
+
+### Completed Designs
+
+1. Requirement Analysis
+2. Objective Definition
+3. User and Module Identification
+4. Use Case Diagram
+5. Database Requirement Analysis
+6. ER Diagram
+7. SQL Schema Design
+8. UI Wireframe Design
+9. Login and Dashboard Design
+10. Navigation and Form Design
+
+### Design Evaluation
+
+- User-friendly interface
+- Clear navigation flow
+- Efficient database structure
+- Supports English/Hindi to ISL conversion
+- Supports ISL Gesture to Text conversion
+- Mobile-friendly design
+- Scalable architecture for future enhancements
+
+### Review Outcome
+
+All design documents have been reviewed and approved for implementation.
+
+## Status
+
+Design Phase Completed Successfully.
