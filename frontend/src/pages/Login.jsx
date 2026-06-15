@@ -1,32 +1,32 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+
 function Login() {
+  const navigate = useNavigate();
+
+ const handleLogin = () => {
+  alert("Login Successful");
+  navigate("/dashboard");
+};
+
   return (
     <div style={{ textAlign: "center", marginTop: "100px" }}>
       <h1>Indian Sign Language Generator</h1>
 
       <h2>Login</h2>
 
-      <input
-        type="email"
-        placeholder="Enter Email"
-      />
+      <input type="email" placeholder="Enter Email" />
+      <br /><br />
+
+      <input type="password" placeholder="Enter Password" />
+      <br /><br />
+
+      <button onClick={handleLogin}>Login</button>
 
       <br /><br />
 
-      <input
-        type="password"
-        placeholder="Enter Password"
-      />
-
-      <br /><br />
-
-      <button>Login</button>
-
-      <br /><br />
-
-<Link to="/register">
-  New User? Register Here
-</Link>
+      <Link to="/register">
+        New User? Register Here
+      </Link>
     </div>
   );
 }

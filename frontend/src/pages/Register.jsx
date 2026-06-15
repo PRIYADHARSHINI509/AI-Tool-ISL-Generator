@@ -1,45 +1,38 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+
 function Register() {
+  const navigate = useNavigate();
+
+  const handleRegister = () => {
+  alert("Registration Successful");
+  navigate("/dashboard");
+};
+
   return (
     <div style={{ textAlign: "center", marginTop: "100px" }}>
       <h1>Indian Sign Language Generator</h1>
 
       <h2>Register</h2>
 
-      <input
-        type="text"
-        placeholder="Enter Full Name"
-      />
+      <input type="text" placeholder="Enter Full Name" />
+      <br /><br />
+
+      <input type="email" placeholder="Enter Email" />
+      <br /><br />
+
+      <input type="password" placeholder="Enter Password" />
+      <br /><br />
+
+      <input type="password" placeholder="Confirm Password" />
+      <br /><br />
+
+      <button onClick={handleRegister}>Register</button>
 
       <br /><br />
 
-      <input
-        type="email"
-        placeholder="Enter Email"
-      />
-
-      <br /><br />
-
-      <input
-        type="password"
-        placeholder="Enter Password"
-      />
-
-      <br /><br />
-
-      <input
-        type="password"
-        placeholder="Confirm Password"
-      />
-
-      <br /><br />
-
-      <button>Register</button>
-      <br /><br />
-
-<Link to="/">
-  Already have an account? Login
-</Link>
+      <Link to="/">
+        Already have an account? Login
+      </Link>
     </div>
   );
 }
