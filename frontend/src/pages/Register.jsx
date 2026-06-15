@@ -5,13 +5,32 @@ function Register() {
 
       <h2>Register</h2>
 
-      <input type="text" placeholder="Enter Name" />
+      <input
+        type="text"
+        placeholder="Enter Full Name"
+      />
+
       <br /><br />
 
-      <input type="email" placeholder="Enter Email" />
+      <input
+        type="email"
+        placeholder="Enter Email"
+      />
+
       <br /><br />
 
-      <input type="password" placeholder="Enter Password" />
+      <input
+        type="password"
+        placeholder="Enter Password"
+      />
+
+      <br /><br />
+
+      <input
+        type="password"
+        placeholder="Confirm Password"
+      />
+
       <br /><br />
 
       <button>Register</button>
